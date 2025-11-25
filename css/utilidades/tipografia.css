@@ -1,3 +1,13 @@
+.font-botao1 {
+    font: 600 1.125rem/1.33 "Poppins", sans-serif;
+    text-transform: uppercase;   
+}
+
+.ponto-final {
+    color: #ffbb00;
+}
+
+
 .texto-grande {
     font-weight: 600;
     font-size: 4rem;
@@ -49,17 +59,23 @@
     font-family: "Roboto", sans-serif;
 }
 
+.texto-medio-b {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-family: "Roboto", sans-serif;
+}
+
 .font-media2 {
     font: 400 1rem/1.125 "Roboto", sans-serif;   
 }
 
-.font-media2 {
-    font: 400 1.125rem/1.3 "Poppins", sans-serif;   
+.font-media2-b {
+    font: 600 1rem/1.125 "Roboto", sans-serif;   
 }
 
-.font-botao1 {
-    font: 600 1.125rem/1.33 "Poppins", sans-serif;
-    text-transform: uppercase;   
+.font-media2 {
+    font: 600 1.125rem/1.3 "Poppins", sans-serif;   
 }
 
 .font-media3 {

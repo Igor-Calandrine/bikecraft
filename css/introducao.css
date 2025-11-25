@@ -22,10 +22,6 @@
     margin-bottom: 32px;
 }
 
-.introducao-conteudo h1 span {
-    color: #ffbb00;
-}
-
 .introducao-conteudo p {
     margin-bottom: 20px;
     color: #b2b2b2;
@@ -41,7 +37,6 @@
 
 .introducao-conteudo a:hover {
     background: linear-gradient(#ffb600, #e59317);
-
 }
 
 .introducao-img img {
