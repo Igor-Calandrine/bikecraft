@@ -1,0 +1,67 @@
+.texto-grande {
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 1.125;
+    font-family: "Poppins", sans-serif;
+}
+
+.texto-grande2 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.25;
+    font-family: "Roboto", sans-serif;
+}
+
+.texto-grande3 {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 1.25;
+    font-family: "Poppins", sans-serif;
+}
+
+
+.font-pequena1 {
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.35;
+    font-family: "Poppins", sans-serif;
+}
+
+.font-pequena2 {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.43;
+    font-family: "Roboto", sans-serif;
+}
+
+.font-pequena3 {
+    font: 400 1rem/1.125 "Poppins", sans-serif;   
+}
+
+.font-pequena3 {
+    font: 400 1rem/1.125 "Roboto", sans-serif;   
+}
+
+.texto-medio {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    font-family: "Roboto", sans-serif;
+}
+
+.font-media2 {
+    font: 400 1rem/1.125 "Roboto", sans-serif;   
+}
+
+.font-media2 {
+    font: 400 1.125rem/1.3 "Poppins", sans-serif;   
+}
+
+.font-botao1 {
+    font: 600 1.125rem/1.33 "Poppins", sans-serif;
+    text-transform: uppercase;   
+}
+
+.font-media3 {
+    font: 500 1.125rem/1.35 "Roboto", sans-serif;   
+}
