@@ -1,9 +1,10 @@
-@import url(global.css);
-@import url(header.css);
-@import url(introducao.css);
-@import url(biciletas-list.css);
-@import url(tecnologia.css);
-@import url(parceiros.css);
+@import url(./home/global.css);
+@import url(./home/header.css);
+@import url(./home/introducao.css);
+@import url(./home/biciletas-list.css);
+@import url(./home/tecnologia.css);
+@import url(./home/parceiros.css);
+@import url(./home/depoimento.css);
 
 /* Utilitários */
 @import url(./utilidades/tipografia.css);

@@ -45,6 +45,10 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
+    .parceiros li {
+    padding: 20px;
+    }
+
     .bot800 {
         border-bottom: 2px solid var(--cinzaCC);;
     }
