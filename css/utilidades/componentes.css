@@ -4,6 +4,31 @@
     margin: auto;
 }
 
+.botao {
+    font: 600 1.250rem/1.33 "Poppins", sans-serif;
+    text-transform: uppercase;
+    max-width: max-content; 
+    display: inline-block;
+    color: var(--black);
+    padding: 16px 32px;
+    border-radius: 4px;
+}
+
+.b-cinza {
+    background-color: var(--cinza);
+    color: var(--cinzaCC);
+}
+
+.b-cinza:hover {
+    background-color: var(--cinzaC);
+    color: var(--cinzaCC);
+}
+
+.b-laranja {
+    background-color: var(--laranja);
+    color: var(--black);
+}
+
 .ponto-final {
     color: #ffbb00;
 }

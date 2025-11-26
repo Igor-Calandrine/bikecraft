@@ -1,4 +1,6 @@
 :root {
+    --black:#000;
+    --cinzaE:#111;
     --cinza:rgb(88, 88, 88);
     --cinzaC:rgb(147, 147, 147);
     --cinzaCC:rgb(216, 216, 216);
@@ -7,6 +9,10 @@
     --laranja2: #E4A30B;
     --laranjaE: #9b7201;
     --branco: #fff;
+}
+
+.cinzaE {
+    color: #111;
 }
 
 .cinza {
