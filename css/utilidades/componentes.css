@@ -1,0 +1,28 @@
+.container-max {
+    max-width: 1200px;
+    padding: 20px;
+    margin: auto;
+}
+
+.ponto-final {
+    color: #ffbb00;
+}
+
+.link {
+    margin-bottom: 80px;
+}
+
+.link::after {
+    content: "";
+    display: block;
+    margin-top: 8px;
+    width: 100%;
+    height: 4px;
+    background-color: currentColor;
+    transition: 0.3s;
+
+}
+
+.link:hover::after {
+    color: var(--branco);
+}

@@ -2,6 +2,9 @@
 @import url(header.css);
 @import url(introducao.css);
 @import url(biciletas-list.css);
+@import url(tecnologia.css);
 
 /* Utilitários */
 @import url(./utilidades/tipografia.css);
+@import url(./utilidades/componentes.css);
+@import url(./utilidades/cores.css);

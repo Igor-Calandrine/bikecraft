@@ -2,12 +2,7 @@ header {
     background-color: black;
 }
 
-
-
 .header {
-    max-width: 1200px;
-    padding: 20px;
-    margin: auto;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -22,7 +17,6 @@ header {
     flex-wrap: wrap;
     gap: 40px;
 }
-
 
 .header-menu a {
     font-size: 1.125rem;

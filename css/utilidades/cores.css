@@ -1,0 +1,23 @@
+:root {
+    --cinza:rgb(88, 88, 88);
+    --cinzaC:rgb(147, 147, 147);
+    --laranja: #ffbb00;
+    --branco: #fff;
+}
+
+.cinza {
+    color: var(--cinza);
+}
+
+.cinzaC {
+    color: var(--cinzaC);
+}
+
+.laranja {
+    color: #ffbb00;
+}
+
+.branco {
+    color: #fff;
+}
+
