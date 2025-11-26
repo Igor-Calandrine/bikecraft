@@ -3,6 +3,7 @@
 @import url(introducao.css);
 @import url(biciletas-list.css);
 @import url(tecnologia.css);
+@import url(parceiros.css);
 
 /* Utilitários */
 @import url(./utilidades/tipografia.css);
