@@ -6,6 +6,7 @@
 @import url(./home/parceiros.css);
 @import url(./home/depoimento.css);
 @import url(./home/seguros.css);
+@import url(./home/footer.css);
 
 /* Utilitários */
 @import url(./utilidades/tipografia.css);
