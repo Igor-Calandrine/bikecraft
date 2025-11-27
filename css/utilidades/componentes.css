@@ -56,3 +56,56 @@
 .link:hover::after {
     color: var(--branco);
 }
+
+/* Títulos internos */
+
+.titulos-bg {
+    background-color: var(--black);
+    padding: 60px 0px;
+}
+
+.titulos p {
+    margin-bottom: 4px;
+}
+
+@media (max-width: 800px) {
+    .titulos-bg {
+        padding: 40px 0px;
+    }
+
+    .titulos p {
+        font-size: 1rem;
+        font-weight: 400;
+    }
+}
+
+/* Bicicletas */
+
+.preco {
+    background-color: var(--black);
+    color: white;
+    padding: 6px 8px;
+    border-radius: 4px;
+    position: absolute;
+    left: -41px;
+    top:16px;
+    transform: translate(-100%, 0);
+}
+
+@media (max-width: 800px) {
+    .preco {
+    transform: translate(0, 0);
+    top: -100px;
+    left: -20px;
+}
+    
+}
+
+.quadradinho::before {
+    content: "";
+    display: block;
+    background-color: var(--laranja);
+    width: 12px;
+    height: 8px;
+    margin-bottom: 4px;
+}
