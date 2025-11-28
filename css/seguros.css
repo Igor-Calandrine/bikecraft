@@ -1,0 +1,122 @@
+@import url(./home/global.css);
+@import url(./home/header.css);
+@import url(./home/footer.css);
+
+/* Utilitários */
+@import url(./utilidades/tipografia.css);
+@import url(./utilidades/componentes.css);
+@import url(./utilidades/cores.css);
+
+.titulos-bg {
+    padding-bottom: 0px;
+}
+
+.vantagens-bg {
+    background-color: var(--black);
+    padding: 80px 0px 80px 0px;
+}
+
+.vantagens-bg h2 {
+    padding-bottom: 80px;
+}
+
+.lista-vantagens {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, max-content));
+    gap: 40px;
+}
+
+.lista-vantagens h3 {
+    margin-bottom: 20px;
+}
+
+.lista-vantagens img {
+    width: 24px;
+    margin-bottom: 8px;
+}
+
+.perguntas-bg {
+    padding: 80px 0px;
+}
+
+.perguntas-bg h2 {
+    margin-bottom: 80px;
+}
+
+.perguntas li {
+    padding: 16px 16px 16px calc(16px + 20px);
+    border-radius: 8px;
+    position: relative;
+}
+
+.perguntas li::after {
+    content: "";
+    display: block;
+    width: 14px;
+    height: 6px;
+    background: url(../img/icones/seta-abrir.svg);
+    position: absolute;
+    right: 24px;
+    top: 12px;
+    transition: 0.8s;
+}
+
+.perguntas li:hover::after {
+    transform: rotateX(180deg);
+}
+
+.perguntas h4 {
+    margin-bottom: 8px;
+    position: relative;
+    
+}
+
+.perguntas li p {
+    max-height: 0;
+    overflow: hidden;
+    transition: 3s;
+}
+
+.perguntas li:hover p {
+    max-height: 500px;
+    overflow: hidden;
+    transition: 2.5s;
+    }
+
+.quadradinho::before {
+    position: absolute;
+    left: -20px;
+    top: 6px;
+    transition: 1s;
+}
+
+.perguntas li:hover .quadradinho::before {
+    transform: scaleX(140%);
+}
+
+.perguntas li:nth-child(odd) {
+    background-color: var(--cinzaF7);
+}
+
+@media (max-width: 800px) {
+
+    .vantagens-bg {
+    background-color: var(--black);
+    padding: 40px 0px 40px 0px;
+}
+
+    .vantagens-bg h2 {
+    padding-bottom: 40px;
+}
+
+    .perguntas-bg {
+    padding: 40px 0px;
+}
+
+    .perguntas-bg h2 {
+    margin-bottom: 40px;
+}
+}
+
+
+

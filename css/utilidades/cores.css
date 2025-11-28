@@ -5,6 +5,9 @@
     --cinza:rgb(88, 88, 88);
     --cinzaC:rgb(147, 147, 147);
     --cinzaCC:rgb(216, 216, 216);
+    --cinzaB2: #b2b2b2;
+    --cinzaC9:  #404040;
+    --cinzaF7: #f7f7f7;
 
 
     --laranja: #ffbb00;
@@ -32,6 +35,14 @@
 
 .cinzaC {
     color: var(--cinzaC);
+}
+
+.cinzaCC {
+    color: var(--cinzaCC);
+}
+
+.cinzaC9 {
+    color: var(--cinzaC9);
 }
 
 .laranja {

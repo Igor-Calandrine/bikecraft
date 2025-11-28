@@ -15,6 +15,38 @@
     transition: 0.2s;
 }
 
+/* Botao com seta */
+
+.botao-seta {
+    font: 600 1.250rem/1.33 "Poppins", sans-serif;
+    text-transform: uppercase;
+    max-width: max-content; 
+    display: inline-block;
+    color: var(--black);
+    padding: 16px 32px;
+    border-radius: 4px;
+    transition: 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.botao-seta::after {
+    content: "";
+    display: inline-block;
+    width: 18px;
+    height: 10px;
+    margin-left: 12px;
+    transition: 0.5s;
+    background: url(../../img/icones/seta.svg);
+}
+
+.botao-seta:hover::after {
+    transform: translateX(5px) scaleX(160%) ;
+    
+}
+
+/* Divisão */
+
 .b-cinza {
     background-color: var(--cinza);
     color: var(--cinzaCC);
@@ -60,7 +92,7 @@
 /* Títulos internos */
 
 .titulos-bg {
-    background-color: var(--black);
+    background-color: var(--cinzaE);
     padding: 60px 0px;
 }
 
@@ -85,9 +117,9 @@
     background-color: var(--black);
     color: white;
     padding: 6px 8px;
-    border-radius: 4px;
+    border-radius: 4px 0 0 4px;
     position: absolute;
-    left: -41px;
+    left: -40px;
     top:16px;
     transform: translate(-100%, 0);
 }

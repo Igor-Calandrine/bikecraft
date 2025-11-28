@@ -17,11 +17,6 @@
     gap: 40px;
 }
 
-/* .nimbus-img img {
-    height: 100%;
-    object-fit: cover;
-} */
-
 .item-bg {
     width: 100%;
     background-color: var(--cinzaE);
@@ -35,7 +30,7 @@
 
 
 .nimbus-texto h3, .nimbus-texto > p {
-    margin-bottom: 32px;
+    margin-bottom: 28px;
     line-height: 1.25;
 }
 
@@ -49,11 +44,11 @@
 }
 
 .container-botao {
-    align-self: flex-end;
+    place-self: end;
 }
 
 .bicileta-item li {
-    margin-bottom: 24px;
+    padding-bottom: 20px;
     display: flex;
     gap: 4px;
     align-items: center;
@@ -90,8 +85,17 @@
 @media (max-width: 600px) {
     .botao {
         font-size: 1rem;
-        padding: 8px 12px;
+        padding: 10px 12px;
     }
+
+    .container-lista {
+    grid-template-columns: 1fr;
+}
+    
+    .container-botao {
+    place-self: start;
+}
+
 }
 
 
