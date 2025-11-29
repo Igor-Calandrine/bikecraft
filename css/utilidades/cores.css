@@ -8,6 +8,7 @@
     --cinzaB2: #b2b2b2;
     --cinzaC9:  #404040;
     --cinzaF7: #f7f7f7;
+    --cinza2E: #2e2e2e;
 
 
     --laranja: #ffbb00;
@@ -19,6 +20,10 @@
 
 .black {
     color: var(--black);
+}
+
+.cinza2E {
+    color: var(--cinza2E);
 }
 
 .cinzaE {
