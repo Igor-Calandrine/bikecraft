@@ -209,7 +209,7 @@ address:hover {
 
 .container-cidade {
     background-color: var(--branco);
-    padding: 40px 60px;
+    padding: 40px 60px 20px 60px;
     border-radius: 0 0 4px 4px;
 }
 
@@ -248,12 +248,29 @@ address:hover {
 .div-cidade-endereço {
     padding: 8px 0 0 12px;
     border-left: 4px solid var(--cinzaCC);
+    margin-bottom: 32px;
 }
 
 .container-rj:hover h3::before, .container-sp:hover h3::before {
         width: 20px;
         transform: translateX(-4px);
         
+}
+
+.horario p {
+    position: relative;;
+}
+
+.horario p::before {
+    content: "";
+    display: block;
+    background: url(../../img/icones/horario.svg);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: -2px;
+    left: -24px;
 }
 
 @media (max-width:800px) {
