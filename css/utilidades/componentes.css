@@ -141,3 +141,21 @@
     height: 8px;
     margin-bottom: 4px;
 }
+
+/* Contato */
+
+/* Ícones de contato */
+.contato-icone {
+    position: relative;
+}
+
+.contato-icone::before {
+    content: "";
+    display: block;
+    height: 18px;
+    width: 18px;
+    background: url(../../img/icones/email.svg);
+    background-size: cover;
+    position: absolute;
+    left: -28px;
+}
