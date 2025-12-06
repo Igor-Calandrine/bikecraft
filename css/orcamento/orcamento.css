@@ -118,6 +118,7 @@ form:has(#bikcraft:checked) #form-bicicleta {
     padding: 20px 20px;
     width: 100%;
     box-sizing: border-box;
+    cursor: pointer;
 }
 
 .botao-form label span {
