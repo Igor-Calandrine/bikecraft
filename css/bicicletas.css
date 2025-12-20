@@ -38,6 +38,11 @@
     position: relative;
 }
 
+.nimbus-texto:hover h3::before {
+    width: 20px;
+    transition: 1s;
+}
+
 .container-lista {
     display: grid;
     grid-template-columns: 1fr auto;
