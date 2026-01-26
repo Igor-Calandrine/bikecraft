@@ -13,4 +13,7 @@
 @import url(./utilidades/componentes.css);
 @import url(./utilidades/cores.css);
 
+/* JS-script */
+@import url(../script/js-style.css);
+
 

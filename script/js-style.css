@@ -1,0 +1,7 @@
+.js-aumento {
+   transform: scale(105%)
+}
+
+.js-flip {
+   transform: rotateY(360deg)
+}
