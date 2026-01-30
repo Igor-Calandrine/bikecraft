@@ -7,7 +7,7 @@ EntradaAnimada.prototype.animarPosiçãoLoad = function(x, y, z, t) {
    this.elemento.style.opacity = 0
    this.elemento.style.transition = `${t}s`
 
-   window.addEventListener("load", () => {
+   window.addEventListener("pageshow", () => {
    this.elemento.style.transform = `translate3d(0px, 0px, 0px)`
    this.elemento.style.opacity = 1
 })
