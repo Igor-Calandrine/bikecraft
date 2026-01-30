@@ -43,8 +43,9 @@
     margin-bottom: 80px;
 }
 
+
 .perguntas li {
-    padding: 16px 16px 16px calc(16px + 20px);
+    padding: 24px 16px 16px calc(16px + 20px);
     border-radius: 8px;
     position: relative;
 }
@@ -72,6 +73,7 @@
 .perguntas h4{
     position: relative;
     margin-bottom: 8px;
+    
 }
 
 .button_perguntas {
