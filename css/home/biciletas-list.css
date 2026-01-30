@@ -16,6 +16,7 @@
     display: flex;
     gap: 40px;
     overflow-x: auto;
+    scrollbar-width: auto;
 }
 
 .bicileta-lista li {

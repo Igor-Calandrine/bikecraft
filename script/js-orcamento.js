@@ -1,3 +1,11 @@
+import {EntradaAnimada} from "./script.js";
+
+const pEntrada = new EntradaAnimada(".titulo p")
+pEntrada.animarPosiçãoLoad(-450, 0, 0, 2)
+
+const h1Entrada = new EntradaAnimada(".titulo h1")
+h1Entrada.animarPosiçãoLoad(-450, 0, 0, 2)
+h1Entrada.animarDelay(1)
 
 const links_param = new URLSearchParams(location.search)
 console.log(links_param)
@@ -25,6 +33,3 @@ radios.forEach(radio => {
         radio.checked = true
     }
 })
-
-    
-

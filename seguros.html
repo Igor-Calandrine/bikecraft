@@ -6,6 +6,7 @@
     <meta name="description" content="Seguros - Bikcraft.">
     <link rel="stylesheet" href="css/seguros.css">
     <link rel="stylesheet" href="css/home/seguros.css">
+    <link rel="stylesheet" href="script/js-style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -42,7 +43,7 @@
         <div class="seguros-container container-max ">
            
             <div class="seguros">
-                <div class="seguros-item">
+                <div class="seguros-item" id="prata">
                     <h3 class="font-Poppins-636 cinzaC">PRATA</h3>
                     <div>
                         <span class="font-Poppins-636 branco">R$ 199</span> 
@@ -57,7 +58,7 @@
                     <a class="botao b-cinza secundário" href="./orcamento/orcamento.html?bik-seg=seguro&plano=prata">Inscreva-se</a>
                 </div>
                                       
-                <div class="seguros-item">
+                <div class="seguros-item" id="ouro">
                     <h3 class="font-Poppins-636 laranja">OURO</h3>
                     
                     <div>
@@ -122,10 +123,10 @@
 
         <section class="perguntas-bg">
             <div class="container-max">
-                <div class="vantagens titulo ">
+                <div class="vantagens titulo" id="titulo-perguntas">
                     <h2 class="font-Poppins-664 black">perguntas frequentes<span class="ponto-final">.</span></h1>
                 </div>
-
+            </div>
             <div>
                 <ul class="perguntas font-Poppins-618">
                     <li>
@@ -157,13 +158,11 @@
                         <p class="font-Roboto-418 cinzaC9" id="p7">Aceitamos cartões de crédito com as bandeiras: Visa, Mastercard, ELO e American Express. Para pagamentos à vista também aceitarmos PIX e Boleto através do PagSeguro.</p> 
                     </li>
                 </ul>
-
                 
             </div>
             </div>
 
         </section>
-
     </main>
 
     <footer class="footer-bg">
@@ -210,50 +209,6 @@
         <p class="footer-copy font-Roboto-418 cinzaC container-max">Bikcraft © Alguns direitos reservados.</p>
     </footer>
 
-
-    
-
 </body>
-
-<script>
-const perguntas = document.querySelectorAll(".perguntas button")
-const pergunta_control = null
-const pergunta_expand = null
-const resposta = null
-const setinha = null
-
-
-
-    perguntas.forEach(pergunta => {
-      pergunta.addEventListener("click", () => {
-        const pergunta_control = pergunta.getAttribute("aria-controls")
-        const pergunta_expand = pergunta.getAttribute("aria-expanded")
-        const resposta = document.querySelector(`#${pergunta_control}`)
-         
-
-        resposta.classList.toggle("pergunta_aparecer")
-
-        if (pergunta_expand === "true") {
-            pergunta.setAttribute("aria-expanded", "false")
-        }
-        else {
-            pergunta.setAttribute("aria-expanded", "true")
-        }
-        
-    })
-})
-
-
-
-
-
-
-
-
-
-
-
-
-</script>
-
+<script type="module" src="script/js-seguros.js"></script>
 </html>
