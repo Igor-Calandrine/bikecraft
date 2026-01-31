@@ -175,10 +175,6 @@ address:hover {
     .contato-ender {
         padding: 0px 0px 20px 60px;
     }
-
-    .main-bg {
-        padding: 0px;
-    }
 }
 
 @media (max-width:600px) {
