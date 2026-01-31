@@ -27,11 +27,14 @@ EntradaAnimada.prototype.animarScroll = function(x, y, z, t) {
       if (rect.top <= window.innerHeight*0.85 && rect.bottom >= 0) {
          this.elemento.style.transform = `translate3d(0px, 0px, 0px)`
          this.elemento.style.opacity = 1
-      } else if (rect.top > window.innerHeight) {
+      } 
+      else if (rect.top > window.innerHeight) {
+         
          if (isDesktop) {
-         this.elemento.style.transform = `translate3d(${x}px, ${y}px, ${z}px)`}
-          this.elemento.style.opacity = 0
-          this.elemento.style.transition = `${t}s`
+            this.elemento.style.transform = `translate3d(${x}px, ${y}px, ${z}px)`}
+            
+         this.elemento.style.opacity = 0
+         this.elemento.style.transition = `${t}s`
       }
 
    })
