@@ -21,13 +21,15 @@ EntradaAnimada.prototype.animarScroll = function(x, y, z, t) {
 
    window.addEventListener("scroll", () => {
       const rect = this.elemento.getBoundingClientRect()
+      const isDesktop = window.matchMedia("(min-width: 400px)").matches
+
 
       if (rect.top <= window.innerHeight*0.85 && rect.bottom >= 0) {
          this.elemento.style.transform = `translate3d(0px, 0px, 0px)`
          this.elemento.style.opacity = 1
       } else if (rect.top > window.innerHeight) {
-         this.elemento.style.position = "relative"
-         this.elemento.style.transform = `translate3d(${x}px, ${y}px, ${z}px)`
+         if (isDesktop) {
+         this.elemento.style.transform = `translate3d(${x}px, ${y}px, ${z}px)`}
           this.elemento.style.opacity = 0
           this.elemento.style.transition = `${t}s`
       }
