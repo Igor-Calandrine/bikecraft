@@ -75,3 +75,13 @@
         flex-direction: column;
     }
 }
+
+@media (max-width: 400px) {
+    .tecnologia-conteudo h2{
+        font-size: 2rem;
+    }
+
+    .tecnologia-conteudo .cinzaC {
+        font-size: 1.5rem
+    }
+}
