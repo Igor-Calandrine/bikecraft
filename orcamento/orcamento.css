@@ -1,11 +1,4 @@
-@import url(../home/global.css);
-@import url(../home/header.css);
-@import url(../home/footer.css);
-
-/* Utilitários */
-@import url(../utilidades/tipografia.css);
-@import url(../utilidades/componentes.css);
-@import url(../utilidades/cores.css);
+@import url(../css/style.css);
 
 main {
     background: linear-gradient(180deg, var(--cinzaE)750px, var(--cinzaED)0px);
